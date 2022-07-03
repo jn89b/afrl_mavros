@@ -34,28 +34,6 @@ public:
 		};
 	}
 
-	// FlightTestInputPlugin() : PluginBase(),
-	// 	imu_nh("~flight_test_input"),
-	// 	has_flight_test_input(false)
-	// { }
-
-	// void initialize(UAS &uas_)
-	// {
-	// 	PluginBase::initialize(uas_);
-	// 	ROS_INFO("FlightTest Initialized");
-
-	// 	flight_test_input_pub = imu_nh.advertise<mavros_msgs::FlightTestInput>("flight_test_input",10);
-
-	// 	// reset has_* flags on connection change
-	// 	enable_connection_cb();
-	// }
-
-	// Subscriptions get_subscriptions() {
-	// 	return {
-    //        make_handler(&FlightTestInputPlugin::handle_flight_test_input),
-	// 	};
-	// }
-
 private:
 	ros::NodeHandle imu_nh;
 	ros::Publisher flight_test_input_pub;
