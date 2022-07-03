@@ -1,0 +1,9 @@
+int32 fti_mode
+int32 fti_state
+float32 fti_sweep_time_segment_pct 
+float32 fti_sweep_frequency
+float32 fti_sweep_amplitude
+float32 fti_injection_input
+float32 fti_injection_output
+float32 fti_raw_output
+float32 fti_injection_point

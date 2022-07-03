@@ -87,4 +87,10 @@
   <class name="wind_estimation" type="mavros::std_plugins::WindEstimationPlugin" base_class_type="mavros::plugin::PluginBase">
     <description>Publish wind estimates</description>
   </class>
+  <class name="flight_test_input" type="mavros::extra_plugins::FlightTestInputPlugin" base_class_type="mavros::plugin::PluginBase">
+    <description>flight_test_input</description>
+  </class>
+  <class name="keyboard_command" type="mavros::extra_plugins::KeyboardCommandPlugin" base_class_type="mavros::plugin::PluginBase">
+    <description>Accepts keyboard command.</description>
+</class>
 </library>
